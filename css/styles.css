@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.top-container {
+  background-color: #8EF6E4;
+  position: relative;
+  padding-top: 100px;
+
+}
+h1 {
+  margin: 50px auto 0px auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #9896F1;
+  line-height: 2;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #9896F1;
+  font-weight: normal;
+
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #D59BF6;
+
+}
+a {
+  color: #9896F1;
+}
+.middle-container {
+
+}
+.bottom-container {
+  background-color: #EDB1F1;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #9896F1;
+}
+.pro{
+  text-decoration: underline;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+
+}
+.profile-pic{
+  width: 20%;
+}
+.python-pic {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+.machine-learning {
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+}
+.skill-row {
+  display: inline-block;
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+p {
+  font-size: 1.3em;
+}
+hr {
+  background-color: white;
+  border-style: none;
+  border-top-style:dotted;
+  border-width: 5px;
+  border-color: grey;
+  width: 5%;
+  background-color: inherit;
+  margin-top: 80px;
+  margin-bottom: 80px;
+
+}
+.description {
+  margin: auto 10px auto 10px;
+}
+.contact-me {
+  margin-bottom: 100px;
+}
+.btn {
+  background: #EDB1F1;
+  background-image: -webkit-linear-gradient(top, #EDB1F1, #D59BF6);
+  background-image: -moz-linear-gradient(top, #EDB1F1, #D59BF6);
+  background-image: -ms-linear-gradient(top, #EDB1F1, #D59BF6);
+  background-image: -o-linear-gradient(top, #EDB1F1, #D59BF6);
+  background-image: linear-gradient(to bottom, #EDB1F1, #D59BF6);
+  -webkit-border-radius: 42;
+  -moz-border-radius: 42;
+  border-radius: 42px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 15px 20px 12px 20px;
+  text-decoration: none;
+
+}
+
+.btn:hover {
+  background: #9896F1;
+  background-image: -webkit-linear-gradient(top, #9896F1, #D59BF6);
+  background-image: -moz-linear-gradient(top, #9896F1, #D59BF6);
+  background-image: -ms-linear-gradient(top, #9896F1, #D59BF6);
+  background-image: -o-linear-gradient(top, #9896F1, #D59BF6);
+  background-image: linear-gradient(to bottom, #9896F1, #D59BF6);
+  text-decoration: none;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+
+/* absolute positioning is relative to the parent (div, body etc), while
+relative positioning is relative to the normal positioning of the object.*/
